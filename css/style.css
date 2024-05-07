@@ -1,0 +1,161 @@
+* {
+    /* outline: 1px solid tomato */
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.tit {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    left: 0;
+
+    background: #fff;
+}
+
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+.header .inner h1 {
+    width: 160px;
+}
+
+.header .inner .gnb ul {
+    display: flex;
+    gap: 40px;
+    margin: 6px 0 0 0;
+    font-size: 14px;
+}
+
+.header .inner .sub {
+    display: flex;
+    gap: 20px;
+
+    font-size: 14px;
+}
+
+.main-visual {}
+
+.main-visual .main-slide .itm {
+    height: 664px;
+}
+
+.main-visual .main-slide .itm01 {
+    background: url(../images/main01.jpg)no-repeat center;
+}
+
+.main-visual .main-slide .itm02 {
+    background: url(../images/main02.jpg)no-repeat center;
+}
+
+.main-visual .main-slide .itm03 {
+    background: url(../images/main03.jpg)no-repeat center;
+}
+
+.main-visual .main-slide .swiper-pagination span {
+    height: 4px;
+    width: 20px;
+    border-radius: 4px;
+
+    background: #DBDBDB;
+}
+
+
+
+.main-product {
+    position: relative;
+    padding: 80px 0;
+
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.main-product .tit {
+    margin: 0 auto 24px auto;
+}
+
+.main-product .tit h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.main-product .swiper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.main-product .itm .img-box {
+    background: #f7f7f9;
+    margin: 0 0 24px 0;
+}
+
+.main-product .itm strong {
+    display: block;
+    margin: 0 0 12px 0;
+
+    font-weight: 500;
+}
+
+.main-product .itm p {
+    display: block;
+    margin: 0 0 24px 0;
+}
+
+.main-product .itm .price {
+    display: block;
+    margin: 0 0 24px 0;
+
+    font-size: 14px;
+    color: #9c9c9c;
+}
+
+.main-product .itm .ico a {
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    border: 1px solid #DBDBDB;
+}
+
+.product .swiper-product-pagination {
+    position: absolute;
+    top: 90%;
+    left: 48.5%;
+    right: 0;
+}
+
+.product .swiper-product-pagination span {
+    height: 4px;
+    width: 20px;
+    border-radius: 4px;
+    background: #DBDBDB;
+}
+
+
+footer {
+    margin: 0 auto;
+    width: 1170px;
+    padding: 80px 0;
+}
+
+footer .inner ul img {
+    width: 120px;
+    margin: 0 0 20px 0;
+}
+
+footer .inner ul li {
+    font-size: 14px;
+    line-height: 30px;
+    color: #9c9c9c;
+}
